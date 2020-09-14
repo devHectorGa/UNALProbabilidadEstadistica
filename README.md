@@ -14,7 +14,8 @@ Este repositorio contiene toda la información relacionada con el curso **[Proba
 
 ## Tabla de Contenido
 
-- [Introducción a la estadística](./01.introduccionEstadistica/01.IntroducciónEstadistica.md)
+- [Introducción a la estadística](./01.introduccionEstadistica/01.IntroduccionEstadistica.md)
+- [Tablas de contingencia](02.tablas/tablas.md)
 
 <!-- Links de interés -->
 
