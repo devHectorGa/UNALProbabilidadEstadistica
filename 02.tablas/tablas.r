@@ -73,7 +73,7 @@ n <- length(peso)
 print(n)
 
 # numero de intervalos
-m <- floor(1 + 3.3*log(n, base = 10))
+m <- round(1 + 3.3*log(n, base = 10), 2)
 print(m)
 
 # rango
@@ -87,7 +87,6 @@ print(a)
 # limites
 lim <- min(peso) + (0:m)*a
 print(lim)
-
 # frecuencias absolutas
 nj <- table(cut(x = peso, breaks = lim, include.lowest = T))
 print(nj)

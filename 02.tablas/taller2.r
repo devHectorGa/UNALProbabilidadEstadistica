@@ -40,6 +40,7 @@ sum(100*hj[9:11])
 
 
 # Considere la información de la siguiente disitrbución de frecuencias:
+# a) Completar la tabla
 n <- 80
 hj <- c(4/n,0.15,0.25,0.75-0.25-0.15-0.05,1-0.75)
 print(hj)
@@ -49,3 +50,14 @@ nj <- hj*n
 print(nj)
 Nj <- cumsum(nj)
 print(Nj)
+
+# b. 
+# b* La cantidad de datos mayores a 15 es 44%.
+sum(nj[4:5]) # Falso, nos estan pidiendo es cantidad de datos y no el porcentaje
+
+# b* La cantidad de datos mayores que 5 pero menores que 20 es 36.
+sum(nj[2:3]) # Falso, el resultado es 32
+# b* La proporción de datos mayores que 10 es 95.
+sum(100*hj[3:5]) # Falso la proporción es del 80%
+# b* La proporción de datos entre 10 y 20, inclusive, es 70%.
+sum(100*hj[2:4]) # Verdadera
